@@ -1,71 +1,71 @@
-Weather Data Analysis
+# Weather Data Analysis
 
-This project contains basic data analysis applications implemented using Python. The work was conducted on Google Colab using the weather_data.csv dataset.
+This project demonstrates basic data analysis tasks implemented using Python. The work was performed on Google Colab using the `weather_data.csv` dataset.
 
-Technologies Used
+---
 
-Python
+## Technologies Used
 
-Pandas
+* Python
+* Pandas
+* NumPy
+* Google Colab
 
-NumPy
+---
 
-Google Colab
+## File Contents
 
-File Contents
+* `weather-data-analysis.ipynb` → Contains all code for the project
+* `weather_data.csv` → Dataset used for analysis
+* `city_temperatures.xlsx` → Excel output with average temperatures by city
 
-weather-data-analysis.ipynb → All code files
+---
 
-weather_data.csv → Dataset used
+## Workflow
 
-city_temperatures.xlsx → Average temperature output by city
+The project includes the following steps:
 
-Workflow
+1. **Library and Data Loading**
 
-This project includes the following steps:
+   * Imported Pandas and NumPy libraries
+   * Loaded the CSV dataset
 
-Library and Data Loading
+2. **Data Exploration**
 
-Imported Pandas and NumPy
+   * Displayed the first and last rows of the dataset (head and tail)
+   * Generated statistical summary using `describe`
 
-Loaded the CSV dataset
+3. **Column Selection**
 
-Data Exploration
+   * Selected specific columns for analysis
 
-Displayed head and tail of the dataset
+4. **Filtering**
 
-Generated statistical summary using describe
+   * Applied simple and logical filters
 
-Column Selection
+5. **Sorting**
 
-Selected and displayed specific columns
+   * Sorted data by temperature, humidity, and city
 
-Filtering
+6. **Adding New Columns**
 
-Applied simple and logical filters
+   * Converted temperature to Fahrenheit
+   * Added `FeelsLike` temperature
 
-Sorting
+7. **Grouping**
 
-Sorted by temperature, humidity, and city
+   * Calculated record counts and average temperature per city
 
-Adding New Columns
+8. **Max / Min Analysis**
 
-Converted temperature to Fahrenheit
+   * Identified rows with maximum temperature and minimum humidity
 
-Added FeelsLike value
+9. **Exporting Results**
 
-Grouping
+   * Exported average city temperatures to an Excel file
 
-Calculated record counts and average temperature by city
+---
 
-Max / Min Analysis
+## Note
 
-Identified rows with maximum temperature and minimum humidity
-
-Exporting
-
-Exported average temperatures by city to an Excel file
-
-Note
-
-This project was prepared to learn and practice basic Python data analysis concepts.
+This project was created to learn and practice basic Python data analysis concepts.
