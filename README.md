@@ -1,8 +1,8 @@
-Hava Durumu Veri Analizi
+Weather Data Analysis
 
-Bu proje, Python kullanılarak gerçekleştirilen temel veri analizi uygulamalarını içermektedir. Çalışma Google Colab üzerinde yapılmış olup, weather_data.csv veri seti kullanılmıştır.
+This project contains basic data analysis applications implemented using Python. The work was conducted on Google Colab using the weather_data.csv dataset.
 
--Kullanılan Teknolojiler
+Technologies Used
 
 Python
 
@@ -12,60 +12,60 @@ NumPy
 
 Google Colab
 
--Dosya İçeriği
+File Contents
 
-hava-durumu-veri-analizi.ipynb → Tüm kodlar
+weather-data-analysis.ipynb → All code files
 
-weather_data.csv → Kullanılan veri dosyası
+weather_data.csv → Dataset used
 
-sehir_sicakliklari.xlsx → Şehirlere göre ortalama sıcaklık çıktısı
+city_temperatures.xlsx → Average temperature output by city
 
--Yapılan İşlemler
+Workflow
 
-Bu çalışma aşağıdaki adımları içermektedir:
+This project includes the following steps:
 
-1. Kütüphane ve Veri Yükleme
+Library and Data Loading
 
-Pandas ve Numpy import edildi.
+Imported Pandas and NumPy
 
-CSV veri seti okundu.
+Loaded the CSV dataset
 
-2. Veri Keşfi
+Data Exploration
 
-Head ve tail görüntülendi.
+Displayed head and tail of the dataset
 
-İstatistiksel özet (describe) çıkarıldı.
+Generated statistical summary using describe
 
-3. Sütun Seçimi
+Column Selection
 
-Belirli sütunlar seçilerek görüntülendi.
+Selected and displayed specific columns
 
-4. Filtreleme
+Filtering
 
-Basit ve mantıksal filtreler uygulandı.
+Applied simple and logical filters
 
-5. Sıralama
+Sorting
 
-Sıcaklık, nem ve şehir alanlarına göre sıralama yapıldı.
+Sorted by temperature, humidity, and city
 
-6. Yeni Sütun Ekleme
+Adding New Columns
 
-Fahrenheit sıcaklığı
+Converted temperature to Fahrenheit
 
-FeelsLike değeri
+Added FeelsLike value
 
-7. Gruplama
+Grouping
 
-Şehirlere göre kayıt sayısı ve ortalama sıcaklık hesaplandı.
+Calculated record counts and average temperature by city
 
-8. En Yüksek / En Düşük Değer Analizi
+Max / Min Analysis
 
-Maksimum sıcaklık ve minimum nem satırları bulundu.
+Identified rows with maximum temperature and minimum humidity
 
-9. Dışa Aktarma
+Exporting
 
-Şehirlere göre ortalama sıcaklık Excel dosyasına aktarıldı.
+Exported average temperatures by city to an Excel file
 
-Not
+Note
 
-Bu çalışma, Python veri analizi temel kavramlarını öğrenmek ve uygulamak amacıyla hazırlanmıştır.
+This project was prepared to learn and practice basic Python data analysis concepts.
